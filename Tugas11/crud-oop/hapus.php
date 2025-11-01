@@ -12,4 +12,5 @@ if($mhs->delete()) {
     setcookie("success", "hapus", time() + 1);
     header("Location: index.php");
     exit();
+    
 }
