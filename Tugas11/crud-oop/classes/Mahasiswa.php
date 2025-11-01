@@ -18,7 +18,7 @@ class Mahasiswa {
 
         $stmt->bindParam(":nama", $this->nama);
         $stmt->bindParam(":nim", $this->nim);
-        $stmt->bindParam(":alamat", $this->jurusan);
+        $stmt->bindParam(":jurusan", $this->jurusan);
 
         return $stmt->execute();
     }
